@@ -1,0 +1,79 @@
+/* Updated Modern and Colorful CSS */
+
+.container {
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(to right, #FFB6C1, #87CEEB); Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBox {
+    min-width: 400px;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Slight box shadow */
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer .error {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #FF0000; /* Modern red color */
+    text-align: center;
+}
+
+.footer button {
+    outline: none;
+    border: none;
+    background-color: #9900FF; /* Modern purple button */
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    width: 100%;
+    transition: background-color 0.2s, transform 0.2s;
+    cursor: pointer;
+}
+
+.footer button:disabled {
+    background-color: #808080; /* Grayed-out when disabled */
+    cursor: not-allowed;
+}
+
+.footer button:hover {
+    background-color: #8E24AA; /* Darker purple on hover */
+    transform: scale(1.05);
+}
+
+.footer p {
+    font-weight: 700;
+    color: #333; /* Modern black text color */
+}
+
+.footer p span a {
+    font-weight: bold;
+    color: #9900FF; /* Modern purple link color */
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer p span a:hover {
+    color: #8E24AA; /* Darker purple link color on hover */
+}
+.signoutbtn {
+    margin-left: 10px;
+}
